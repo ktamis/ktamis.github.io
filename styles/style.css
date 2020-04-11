@@ -22,9 +22,12 @@ img {
 }
 .main-header {
     display: flex;
+    position: fixed;
+    z-index: 2;
+    width: 1200px;
     flex-direction: row;
     justify-content: space-between;
-    min-height: 50px;
+    min-height: 60px;
     background-color: #ffffff;
 }
 .main-header p {
@@ -46,11 +49,63 @@ img {
     color: #303846;
     margin: auto 10px ;
 }
-.logo {
+.logo-header {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
-.logo a {
+
+.logo-header a {
     margin-left: 10px;
+}
+.promo {
+    position: relative;
+    min-height: 350px;
+    background-image: url("../images/banner.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.main-logo {
+    position: absolute;
+    align-items: center;
+    top: 90px;
+    left: 550px;
+
+}
+.title {
+    font-size: 40px;
+    font-weight: bold;
+    max-width: 400px;
+    margin: 0 auto;
+    padding-top: 200px;
+    color: #ffffff;
+    text-align: center;
+}
+.promo p {
+    font-size: 24px;
+    font-weight: bold;
+    max-width: 400px;
+    margin: 15px auto 20px;
+    color: #ffffff;
+    text-align: center;
+}
+.button-transparent {
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    font-stretch: normal;
+    line-height: 18px;
+    text-align: center;
+    color: #ffffff;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius:10px;
+}
+.button-transparent-filter {
+    display: block;
+    width: 180px;
+    padding: 10px;
+    margin: 0 auto;
 }

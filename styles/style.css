@@ -3,7 +3,6 @@ body {
     padding: 0;
     font-family: "PT Sans", "Arial", sans-serif;
     font-size: 16px;
-    line-height: 21px;
     color: #303846;
     background-color: #ffffff;
     background-position: center;
@@ -17,14 +16,14 @@ img {
 }
 
 .container {
-    width: 1200px;
+    width: 1000px;
     margin: 0 auto;
 }
 .main-header {
     display: flex;
     position: fixed;
     z-index: 2;
-    width: 1200px;
+    width: 1000px;
     flex-direction: row;
     justify-content: space-between;
     min-height: 60px;
@@ -44,7 +43,6 @@ img {
 .site-navigation a {
     font-weight: bold;
     font-size: 14px;
-    line-height: 26px;
     font-stretch: normal;
     color: #303846;
     margin: auto 10px ;
@@ -53,9 +51,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
-
 .logo-header a {
     margin-left: 10px;
 }
@@ -71,11 +67,10 @@ img {
     position: absolute;
     align-items: center;
     top: 90px;
-    left: 550px;
-
+    left: 450px;
 }
 .title {
-    font-size: 40px;
+    font-size: 38px;
     font-weight: bold;
     max-width: 400px;
     margin: 0 auto;
@@ -84,19 +79,16 @@ img {
     text-align: center;
 }
 .promo p {
-    font-size: 24px;
-    font-weight: bold;
     max-width: 400px;
-    margin: 15px auto 20px;
+    margin: 0 auto 10px;
     color: #ffffff;
     text-align: center;
 }
 .button-transparent {
     font-family: "PT Sans", "Arial", sans-serif;
-    font-size: 21px;
+    font-size: 18px;
     font-weight: bold;
     font-stretch: normal;
-    line-height: 18px;
     text-align: center;
     color: #ffffff;
     background-color: transparent;
@@ -105,7 +97,41 @@ img {
 }
 .button-transparent-filter {
     display: block;
-    width: 180px;
-    padding: 10px;
+    width: 140px;
+    padding: 5px;
     margin: 0 auto;
+}
+/*-----advantages----*/
+.advantages-container {
+    display: flex;
+    justify-content: center;
+}
+.advantage {
+    width: 280px;
+    margin: 30px 10px;
+}
+h2 {
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+.advantage-moon-sea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: ghostwhite;
+}
+.advantage-place {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.advantage-content {
+    width: 470px;
+    margin: 40px 0;
+}
+.foto-moon-1 {
+    margin-left: 40px;
+}
+.foto-moon-2 {
+    margin-right: 40px;
 }

@@ -118,7 +118,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: ghostwhite;
+    background-color: #f7f7f7;
 }
 .advantage-place {
     display: flex;
@@ -134,4 +134,68 @@ h2 {
 }
 .foto-moon-2 {
     margin-right: 40px;
+}
+/*------form-----*/
+.form-container {
+    background-color: #f7f7f7;
+}
+.form-container p {
+    font-size: 34px;
+    font-weight: bold;
+    margin-top: 50px;
+    text-align: center;
+}
+.user-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-parameter {
+    margin-bottom: 20px;
+    width: 380px;
+    border-color: #0ac7b8;
+}
+.form-parameter legend {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0adacb;
+}
+.form-parameter label {
+    display: inline-block;
+    width: 180px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.form-parameter select {
+    width: 140px;
+    height: 30px;
+    background-color: #ffffff;
+    border: 1.2pt solid #d3d3d3;
+    border-radius: 10px;
+    font-size: 13px;
+    padding-left: 7px;
+}
+.form-parameter option {
+    font-size: 14px;
+}
+.form-parameter input {
+    width: 180px;
+    height: 25px;
+    border: 1.2pt solid #d3d3d3;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+.button-form {
+    font-size: 17px;
+    font-weight: bold;
+    color: #0adacb;
+    text-align: center;
+    border: 2px solid #0adacb;
+    border-radius:10px;
+    background-color: #ffffff;
+}
+.button-form-filter {
+    padding: 10px 25px;
+    margin: 0 0 60px 300px;
 }

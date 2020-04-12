@@ -35,7 +35,7 @@
             </a>
             <h1 class="title">ЖК "Лунное море"</h1>
             <p>Место, откуда не хочется улетать</p>
-            <button class="button-transparent button-transparent-filter open-form" type="button">Забронировать</button>
+            <button class="button-transparent button-transparent-filter" type="button">Забронировать</button>
         </section>
         <!-----Advantages----->
         <section class="advantages-container">
@@ -68,8 +68,7 @@
                 <h2>О ЖК «Лунное море»</h2>
                 <p>
                     Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом
-                    не
-                    теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.
+                    не теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.
                 <p>Мы построили наши дома на самом близком к Солнцу спутнике, всего в 380 тысяч километров от Земли.</p>
                 </p>
             </div>
@@ -91,16 +90,57 @@
                 <h2>Места для отдыха</h2>
                 <p>
                     Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22
-                    моря и
-                    18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.
+                    моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.
                 <p>Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района «Лунный
                     материк».</p>
                 </p>
             </div>
         </section>
+        <!-----form------>
+        <section class="form-container">
+            <form class="user-form" method="get" action="#">
+                <p>Оставьте заявку сегодня!</p>
+                <fieldset class="form-parameter">
+                    <legend>Параметры квартиры</legend>
+                    <div>
+                        <label for="quantity">Количество комнат:</label>
+                        <select id="quantity" name="rooms">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="repairs">Отделка:</label>
+                        <select id="repairs">
+                            <option value="1">Без отделки</option>
+                            <option value="2">Черновая отделка</option>
+                            <option value="3">Чистовая отделка</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <fieldset class="form-parameter">
+                    <legend>Контактная информация</legend>
+                    <div>
+                        <label for="name">Имя:</label>
+                        <input type="text" id="name">
+                    </div>
+                    <div>
+                        <label for="tel">Телефон:</label>
+                        <input type="text" id="tel">
+                    </div>
+                    <div>
+                        <label for="mail">E-mail:</label>
+                        <input type="text" id="mail">
+                    </div>
+                </fieldset>
+            </form>
+            <div>
+                <button class="button-form button-form-filter" type="submit">Отправить</button>
+            </div>
+        </section>
     </main>
     <footer>
-
     </footer>
 </div>
 </body>
